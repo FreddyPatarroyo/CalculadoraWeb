@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url('../img/white.png');
+}
+
+/*_________________________header______________________*/
+header{
+  background: url('../img/black.png');
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header h1{
+  font-size: 100px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*_________________________main______________________*/
+main{
+  padding: 50px;
+}
+
+main form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: url('../img/blue.png');
+  padding: 30px;
+  width: 30%;
+  border-radius: 20px;
+}
+
+main form input,
+main form button{
+  margin-bottom: 20px;
+  width: 80%;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*_________________________main botones______________________*/
+main form .btn_sumar{
+  background: #2FEB15;
+}
+
+main form .btn_sumar:hover{
+  background: #8BFC7B;
+}
+
+main form .btn_restar{
+  background: #F22615;
+}
+
+main form .btn_restar:hover{
+  background: #F4675B;
+}
+
+main form .btn_dividir{
+  background: #1195E0;
+}
+
+main form .btn_dividir:hover{
+  background: #79C9F7;
+}
+
+main form .btn_multiplicar{
+  background: #7B1EF8;
+}
+
+main form .btn_multiplicar:hover{
+  background: #B483F7;
+}
+
+main form .btn_mayor{
+  background: #E8A710;
+}
+
+main form .btn_mayor:hover{
+  background: #F9CD65;
+}
+
+main form .btn_mayor{
+  background: #E8A710;
+}
+
+main form .btn_mayor:hover{
+  background: #F9CD65;
+}
+
+main form .btn_menor{
+  background: #F00FA5;
+}
+
+main form .btn_menor:hover{
+  background: #F780CF;
+}

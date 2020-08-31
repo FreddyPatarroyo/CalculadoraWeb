@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/calculadoraEstilos.css">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora</h1>
+    </header>
+    <main>
+      <section class="contenedor">
+        <form class="" action="index.html" method="post">
+          <input type="number" placeholder="numero1" id="numero1" class="numero1">
+          <input type="number" placeholder="numero2" id="numero2" class="numero2">
+          <button type="button" name="button" onclick="sumar()" id="btn_sumar" class="btn_sumar">Sumar</button>
+          <button type="button" name="button" onclick="restar()" id="btn_restar" class="btn_restar">Restar</button>
+          <button type="button" name="button" onclick="dividir()" id="btn_dividir" class="btn_dividir">Dividir</button>
+          <button type="button" name="button" onclick="multiplicar()" id="btn_multiplicar" class="btn_multiplicar">Multiplicar</button>
+          <button type="button" name="button" onclick="mayor()" id="btn_mayor" class="btn_mayor">Mayor</button>
+          <button type="button" name="button" onclick="menor()" id="btn_menor" class="btn_menor">Menor</button>
+          <input type="number" placeholder="respuesta" id="resultado" readonly>
+        </form>
+      </section>
+    </main>
+
+    <script type="text/javascript" src="js/calculadoraServicio.js"></script>
+  </body>
+</html>
